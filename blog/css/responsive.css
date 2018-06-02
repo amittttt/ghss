@@ -1,0 +1,316 @@
+/* For mobile Screen */
+
+@media only screen and (max-width: 650px) {
+    .header-logo {
+        margin-top: 3%;
+    }
+    .header-links {
+        visibility: hidden;
+        display: block;
+        width: 100%;
+        margin: 0%;
+        background-color: #FFF;
+    }
+    .header-links-text {
+        display: block;
+        margin-top: 1%;
+        text-align: center;
+        background-color: #f5f5f5;
+        border: 1px solid #f5f5f5;
+    }
+    .header-links-icon {
+        visibility: hidden;
+    }
+    .container {
+        position: absolute;
+        visibility: visible;
+        margin-left: 47%;
+        margin-top: 2.5%;
+        display: inline-block;
+        cursor: pointer;
+    }
+    .bar1,
+    .bar2,
+    .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+    }
+    .change .bar2 {
+        opacity: 0;
+    }
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+    }
+    .gap-btw-adimage-cardlayout {
+        margin-top: -80px !important;
+    }
+
+
+    /*Contact page css */
+    .contact-header-tagline
+    {
+        margin: 0px;
+        margin-top: 10px;
+        width: 90%;
+        height: 50%;
+        margin-left: 2%;
+        overflow: hidden;
+    }
+    .contact-first-line
+    {
+        display: inline;
+        font-size: 24px;
+        font-weight: 900px;
+    }
+    .contact-second-line
+    {
+        display: inline-block;
+        font-size: 20px;
+        font-weight: 100px;
+    }
+    .contact-card-layout
+    {
+        margin-top: 5%;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 90%;
+        height: 440px;
+    }
+    .contact-form
+    {
+        margin-top:3%;
+    }
+    .contact-label
+    {
+        margin-left: 10px;
+    }
+    .contact-text-area{
+       height: 100%;
+       width: 90%; 
+    }
+    .contact-submit-button
+    {
+        margin-top: 5%;
+    }
+
+    /*contact page css end */
+
+
+    /* About us page css start */
+    .about-first-part {
+        width: 100%;
+        height: 220vh;
+    }
+    
+    .about-first-part-image {
+        width: 100%;
+        height: 75vh;
+        display: inline-block;
+    }
+    .about-first-part-line {
+      display: none;
+    }
+    .about-first-part-line-second{
+        display: none;
+    }
+    .about-first-part-info
+    {
+        display: inline-block;
+        width: 100%;
+        padding: 0.5%;
+    }
+    .about-first-part-parallax
+    {
+        width: 100%;
+        height:50%;
+    }
+    .about-first-part-parallax-center
+    {
+        display: inline-block;
+    }
+    .about-first-part-parallax-down
+    {
+        display: inline-block;
+    }
+    .about-pic-request
+    {
+        width: 100%;
+        height: 40vh;
+    }
+    .about-first-part-img
+    {
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+    }
+    .about-first-part-subscription
+    {
+        height:auto;
+    }
+    #sub-newsletter
+    {
+        display: inline-block;
+        font-size: 22px;
+    }
+    .email-box-sub
+    {
+        padding: 0%;
+        margin: 0%;
+        width: 99%;
+        align-items: center;
+        display: inline-block;
+    }
+    .email-sub-button
+    {
+        margin: 0%;
+        margin-top: 1%;
+        padding: 2%;
+        display: inline-block;
+        width: 100%;
+        height: 20%;
+        font-size: 18px;
+    }
+    #sub-newsletter-afterline
+    {
+        display: inline-block;
+        width: 100%;
+        margin-top: 1%;
+    }
+    .about-team-row
+    {
+        width: 100%;
+    }
+    .about-team-col1
+    {
+        display: inline-block;
+        width: 100%;
+        margin: 0%;
+    }
+    .about-team-col2
+    {
+        display: inline-block;
+        width: 100%;
+    }
+    /* About us page css End*/
+
+    /* footer page css start */
+    .footer-card{
+        margin-top: 5%;
+        width: 100%;
+        height: 90%;
+    }
+    .footer-left-card
+    {
+        display: inline-block;
+        width: 100%;
+        margin: 0%;
+        height: 50px;
+        margin-top: 0%;
+    }
+    
+    .footer-right-card
+    {
+        margin: 0%;
+        display: inline-block;
+        margin-top: 0%;
+        width: 100%;
+        height: 70px;
+    }
+
+    /* footer page css end */
+}
+
+
+
+/* For Tablet Screen */
+
+@media only screen and (min-width: 650px) and (max-width: 970px) {
+    .header-logo {
+        margin-top: 1.4%;
+    }
+    .header-links {
+        visibility: hidden;
+        display: block;
+        width: 100%;
+        margin: 0%;
+        background-color: #FFF;
+    }
+    .header-links-text {
+        display: block;
+        margin-top: 1%;
+        text-align: center;
+        background-color: #f5f5f5;
+        border: 1px solid #f5f5f5;
+    }
+    .header-links-icon {
+        visibility: hidden;
+    }
+    .container {
+        position: absolute;
+        visibility: visible;
+        margin-left: 47%;
+        margin-top: 1.5%;
+        display: inline-block;
+        cursor: pointer;
+    }
+    .bar1,
+    .bar2,
+    .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+    }
+    .change .bar2 {
+        opacity: 0;
+    }
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+    }
+
+    /*contact page start*/
+    .contact-header-tagline
+    {
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+        overflow: hidden;
+    }
+    .contact-card-layout{
+        margin:0px;
+        width:97%;
+        margin-top: 2%;
+    }
+    /*contact page end*/
+}
+
+
+/* For Small Screen Laptop  */
+
+@media only screen and (min-width: 970px) and (max-width: 1290px) 
+{
+    /*Contact page start*/
+
+    /*contact page end*/
+}
+
+
+
+
+/* For large Screen Laptop */
+
+@media only screen and (min-width: 1290px) {}
